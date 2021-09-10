@@ -1,0 +1,23 @@
+filter:
+  excluded_paths:
+    - tests/
+  dependency_paths:
+    - vendor/
+
+build:
+  nodes:
+    analysis:
+      environment:
+        php: 7.4
+      tests:
+        override:
+          - php-scrutinizer-run
+    coverage:
+      environment:
+        php: 7.4
+      tests:
+        override:
+          - command: composer test
+            coverage:
+              file: build/clover.xml
+              format: clover

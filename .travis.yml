@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.4
+
+env:
+  matrix:
+    - COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
+    - COMPOSER_FLAGS=""
+
+before_script:
+  - travis_retry composer update --no-interaction --prefer-dist $COMPOSER_FLAGS
+
+script:
+  - composer test
