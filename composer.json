@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/psr7": "^2.0",
+        "guzzlehttp/psr7": "^1.7 || ^2.0",
         "php": ">=7.4",
         "psr/http-factory": "^1.0.1",
         "psr/http-message": "^1.0.1",
@@ -33,6 +33,7 @@
         "psr/http-server-handler-implementation": "1.0"
     },
     "require-dev": {
+        "guzzlehttp/psr7": "^2.0",
         "pepakriz/phpstan-exception-rules": "^0.11.7",
         "php-parallel-lint/php-parallel-lint": "^1.3",
         "phpstan/phpstan": "^0.12.88",
