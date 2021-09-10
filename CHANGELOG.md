@@ -20,7 +20,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 - Nothing
 
 ### Fixed
-- Nothing
+- Allow version ^1.7 of GuzzleHttp\Psr7.
 
 ### Security
 - Nothing
