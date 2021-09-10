@@ -7,6 +7,10 @@ parameters:
     reportUnusedCatchesOfUncheckedExceptions: true
     uncheckedExceptions:
       - LogicException
+    methodThrowTypeDeclarations:
+      Psr\Http\Server\RequestHandlerInterface:
+        handle:
+          - Exception
 
 includes:
   - vendor/phpstan/phpstan-strict-rules/rules.neon
