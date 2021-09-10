@@ -29,6 +29,9 @@
         "psr/http-server-handler": "^1.0",
         "stadly/http": "^1.1"
     },
+    "provide": {
+        "psr/http-server-handler-implementation": "1.0"
+    },
     "require-dev": {
         "pepakriz/phpstan-exception-rules": "^0.11.7",
         "php-parallel-lint/php-parallel-lint": "^1.3",
