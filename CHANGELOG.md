@@ -7,7 +7,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 ## Unreleased - YYYY-MM-DD
 
 ### Added
-- Nothing
+- File adapter interface.
 
 ### Deprecated
 - Nothing
