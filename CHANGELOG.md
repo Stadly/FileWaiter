@@ -4,19 +4,7 @@ All notable changes to `FileWaiter` will be documented in this file.
 
 Updates should follow the [Keep a Changelog](http://keepachangelog.com/) principles.
 
-## Unreleased - YYYY-MM-DD
+## 0.1.0 - 2021-09-10
 
 ### Added
 - File adapter interface.
-
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
