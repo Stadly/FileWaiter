@@ -18,4 +18,9 @@
 
     // Run the installation script after creating the container.
     "postCreateCommand": "sh .devcontainer/install.sh",
+
+    // Make Docker accessible from within the container.
+    "mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+    ]
 }
