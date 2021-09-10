@@ -8,7 +8,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 ## [Unreleased](https://github.com/Stadly/FileWaiter/compare/v0.1.0...HEAD) - YYYY-MM-DD
 
 ### Added
-- Nothing
+- Local file adapter.
 
 ### Changed
 - Nothing
