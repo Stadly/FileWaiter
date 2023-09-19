@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine
+FROM php:8.2-fpm-alpine
 
 # Update all packages
 RUN apk update && apk upgrade
@@ -7,7 +7,9 @@ RUN apk update && apk upgrade
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Install xdebug
-RUN apk add $PHPIZE_DEPS
+RUN apk add \
+    $PHPIZE_DEPS \
+    linux-headers
 RUN pecl install xdebug
 RUN docker-php-ext-enable xdebug
 
