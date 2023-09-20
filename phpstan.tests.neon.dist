@@ -3,6 +3,9 @@ parameters:
   implicitThrows: false
   paths:
     - tests
+  exceptions:
+    check:
+      tooWideThrowType: true
 
 includes:
   - vendor/phpstan/phpstan-strict-rules/rules.neon

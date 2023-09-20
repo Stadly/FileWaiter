@@ -3,6 +3,12 @@ parameters:
   implicitThrows: false
   paths:
     - src
+  exceptions:
+    check:
+      missingCheckedExceptionInThrows: true
+      tooWideThrowType: true
+    uncheckedExceptionClasses:
+      - LogicException
   exceptionRules:
     reportUnusedCatchesOfUncheckedExceptions: true
     uncheckedExceptions:
