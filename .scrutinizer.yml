@@ -8,13 +8,13 @@ build:
   nodes:
     analysis:
       environment:
-        php: 7.4
+        php: 8.2
       tests:
         override:
           - php-scrutinizer-run
     coverage:
       environment:
-        php: 7.4
+        php: 8.2
       tests:
         override:
           - command: composer test
