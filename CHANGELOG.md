@@ -17,7 +17,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 - Nothing
 
 ### Removed
-- Nothing
+- Removed support for PHP 7.4
 
 ### Fixed
 - Nothing

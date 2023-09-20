@@ -23,7 +23,7 @@
     ],
     "require": {
         "guzzlehttp/psr7": "^1.7 || ^2.0",
-        "php": ">=7.4",
+        "php": ">=8.0",
         "psr/http-factory": "^1.0.1",
         "psr/http-message": "^1.0.1",
         "psr/http-server-handler": "^1.0",
