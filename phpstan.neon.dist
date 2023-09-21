@@ -1,12 +1,12 @@
 parameters:
   level: max
-  implicitThrows: false
   paths:
     - src
   exceptions:
     check:
       missingCheckedExceptionInThrows: true
       tooWideThrowType: true
+    implicitThrows: false
     uncheckedExceptionClasses:
       - LogicException
 

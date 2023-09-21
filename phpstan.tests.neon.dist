@@ -1,11 +1,11 @@
 parameters:
   level: max
-  implicitThrows: false
   paths:
     - tests
   exceptions:
     check:
       tooWideThrowType: true
+    implicitThrows: false
 
 includes:
   - vendor/phpstan/phpstan-strict-rules/rules.neon
